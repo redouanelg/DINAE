@@ -1,7 +1,7 @@
 # DINAE
 DINAE for Data Interpolating AutoEncoders
 
-This a code for a personal project (not published) on reconstructing misssing data using autoencoders. The idea behind DINAE is not new (but haven't found a Python code with Keras implementing it) and it based on the following steps:
+This a code for a personal project (not published) on reconstructing misssing data using autoencoders. The idea behind DINAE is not new (but haven't found a Python code with Keras implementing it) and is based on the following steps:
 
 >* Deep AE is trained using training set of complete images <br />
 >* Image (or data) with missing data is passed to the input of the trained AE, where the missing values are replaced with 0. <br />
