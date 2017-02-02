@@ -8,9 +8,6 @@ Created on Tue Jan 24 16:09:10 2017
 
 """
 
-#reset
-
-
 from keras.layers import Input, Dense
 from keras.models import Model
 
