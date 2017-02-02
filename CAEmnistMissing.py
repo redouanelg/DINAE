@@ -2,7 +2,7 @@
 """
 Created on Tue Jan 31 14:30:20 2017
 
-@author: rlguensa
+@author: redouane lguensat 2017
 """
 
 #import os
@@ -56,7 +56,7 @@ autoencoder.fit(x_train, x_train,
                 validation_data=(x_test, x_test))
 
 ############## create image with artificial missing data ############
-nbTest=10
+nbTest=10 #number of test images 
 patchsize=28
 
 Testimage=np.zeros((nbTest,patchsize*patchsize));
@@ -65,7 +65,7 @@ OBSvec=np.zeros((nbTest,patchsize*patchsize))
 for i in range(nbTest):             
     Testimage[i]=x_test[i,:].flatten().copy()
     GroundTruth[i]=x_test[i,:].flatten().copy()
-    missRate=0.5
+    missRate=0.5  #50% of missing data at random
     missInd=np.nonzero(np.random.choice([0, 1], size=(Testimage.shape[1]), p=[1-missRate, missRate]))
     Testimage[i,missInd[0]]=float('nan')
     OBSvec[i]=Testimage[i].copy()
