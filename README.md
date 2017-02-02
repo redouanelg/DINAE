@@ -18,7 +18,7 @@ If you're a good guy (girl?) and desire to cite the code, please use the followi
 @misc{DINAE, <br />
 author = {Lguensat Redouane}, <br />
 title = {Data Interpolating AutoEncoders}, <br />
-year = {2016}, <br />
+year = {2017}, <br />
 publisher = {GitHub}, <br />
 journal = {GitHub repository}, <br />
 howpublished = {\url{https://github.com/redouanelg/DINAE}} <br />
