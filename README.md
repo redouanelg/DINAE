@@ -23,3 +23,5 @@ publisher = {GitHub}, <br />
 journal = {GitHub repository}, <br />
 howpublished = {\url{https://github.com/redouanelg/DINAE}} <br />
 }
+
+[[https://raw.githubusercontent.com/redouanelg/DINAE/blob/master/ae.png]]
