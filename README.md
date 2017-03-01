@@ -24,4 +24,4 @@ journal = {GitHub repository}, <br />
 howpublished = {\url{https://github.com/redouanelg/DINAE}} <br />
 }
 
-[[https://github.com/redouanelg/DINAE/blob/master/ae.png|alt=octocat]]
+![example](https://github.com/redouanelg/DINAE/blob/master/ae.png)
