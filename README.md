@@ -13,7 +13,7 @@ I put two examples using MNIST, one with deep AE where the image is vectorised (
 
 If you have any remarks on the code (I'm still a Matlab guy, but I learn fast :D), or if you find some bugs do not hesitate to send me a message.
 
-If you're a good guy (girl?) and desire to cite the code, please use the following:
+If you're a good guy or girl, and desire to cite the code, please use the following:
 
 @misc{DINAE, <br />
 author = {Lguensat Redouane}, <br />
