@@ -11,17 +11,6 @@ This a code for a personal project (not published) on reconstructing misssing da
 
 I put two examples using MNIST, one with deep AE where the image is vectorised (so the inputs are vectors of $28\times28$ length), the second script is more "realistic" for images where I used convolutional AEs. The codes are based on Keras.
 
-If you have any remarks on the code (I'm still a Matlab guy, but I learn fast :D), or if you find some bugs do not hesitate to send me a message.
-
-If you're a good guy or girl, and desire to cite the code, please use the following:
-
-@misc{DINAE, <br />
-author = {Lguensat Redouane}, <br />
-title = {Data Interpolating AutoEncoders}, <br />
-year = {2017}, <br />
-publisher = {GitHub}, <br />
-journal = {GitHub repository}, <br />
-howpublished = {\url{https://github.com/redouanelg/DINAE}} <br />
-}
+If you have any remarks on the code, or if you find some bugs do not hesitate to send me a message.
 
 ![example](https://github.com/redouanelg/DINAE/blob/master/ae.png)
